@@ -1,38 +1,1667 @@
-.App {
+ .app .logo img{
+width: 100%;
+position: relative;
+right: 141px; 
+ }
+ /* .NavMenu {
+ display: flex;
+ align-items: center;
+ margin-right: -24px;
+ }
+ .NavLink {
+ color: #261B6C;
+ display: flex;
+ align-items: center;
+ text-decoration: none;
+ padding: 0 1rem;
+ height: 100%;
+ cursor: pointer;
+ &.active {
+  color:rgb(45, 1, 112);
+ }
+ }
+.Nav {
+background: white;
+height: 210px;
+display: flex;
+justify-content: space-between;
+padding: 0.2rem calc((100vw - 1000px) / 2);
+z-index: 12;
+
+}
+.NavMenu {
+display: flex;
+align-items: center;
+margin-right: -24px;
+
+} */
+@font-face {
+  font-family: 'AvenirLTStd85Heavy';
+  src: url('./AvenirLTStd/AvenirLTStd85Heavy/AvenirHeavy.otf');
+}
+@font-face {
+  font-family: 'AvenirLTStd45Book';
+  src: url('./AvenirLTStd/AvenirLTStd45Book/Avenir\ LT\ Std\ 45\ Book.otf');
+}
+@font-face {
+  font-family: 'AvenirLTStd55Roman';
+  src: url('./AvenirLTStd/AvenirLTStd55Roman/Avenir\ LT\ Std\ 55\ Roman.otf');
+}
+@font-face {
+  font-family: 'AvenirLTStd35Light/Avenir';
+  src: url('./AvenirLTStd/AvenirLTStd35Light/Avenir\ LT\ Std\ 35\ Light.otf');
+}
+@font-face {
+  font-family: 'AvenirLTStd85Heavy';
+  src: url('./AvenirLTStd/AvenirLTStd85Heavy/AvenirHeavy.otf');
+}
+@font-face {
+  font-family: 'AvenirLTStd65Medium';
+  src: url('./AvenirLTStd/AvenirLTStd65Medium/Avenir\ LT\ Std\ 65\ Medium.otf');
+}
+ @font-face {
+  font-family: 'MontserratBold';
+  src: url('./Montserrat/static/Montserrat-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: 'MontserratRegular';
+  src: url('./Montserrat/static/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'MontserratLight';
+  src: url('./Montserrat/static/Montserrat-Light.ttf');
+}
+
+@font-face {
+  font-family: 'MontserratSemiBold';
+  src: url('./Montserrat/static/Montserrat-SemiBold.ttf');
+}
+@font-face {
+  font-family: '3Dumb';
+  src: url('./3dumb/3Dumb.ttf');
+}
+
+
+.body,html{
+  overflow-x: hidden;
+}
+ .header{
+  background-color: white; 
+ 
+ }
+.header1{
+  background-image: url("./img/Rectangle01.png");
+  display: flex;
+}
+
+.header1 .hometxt h1{
+  color: white;
+  width: 100%;
+  margin-top: 50%;
+  font-family: 'MontserratBold';
+  font-weight: 700;
+}
+.header1 .hometxt p{
+  color: white;
+  font-family: 'AvenirLTStd65Medium';
+  width: 96%;
+}
+.header1 .hometxt{
+  margin-left: 70px;
+}
+
+.hometxt button{
+  background-color: #B2904C;
+  color: white;
+  padding: 13px 39px 13px 39px ;
+  border-radius: 1px;
+  font-family: 'AvenirLTStd85Heavy';
+}
+.image{display: flex;
+}
+ .image img{width: 50%;  /*margin-left: -10%; */
+}
+.image img:nth-child(2){
+  margin-left: -30%;
+  
+}
+.image img:nth-child(3){
+  margin-left: -30%;
+}
+.image img:nth-child(4){
+  margin-left: -30%;
+}
+
+
+/*   first-page  about    */
+.header .about{
+ padding-top: 80px;
+ padding-bottom: 80px;
+ background-color: white;
+ 
+}
+.innerAbout{
+  background-color: white;
+  margin: 0 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.innerAbout h2{
+  font-family: 'MontserratBold';
+  color:rgb(45, 1, 112);
+  
+}
+.innerAbout .para{
+  color: rgb(86, 65, 141);
+  font-family: 'AvenirLTStd65Medium';
+  font-weight: 400;
+  width: 103%;
+  padding-bottom: 30px;
+}
+
+.innerAbout .btn1{
+  background-color: #B2904C;
+  border: none;
+  color: white;
+  padding: 13px 39px 13px 39px ;
+  font-family: 'AvenirLTStd85Heavy';
+  margin-top: 14px;
+  font-size: 17px;
+  border-radius: 1px;
+  font-weight: 750;
+}
+
+.imm{
+  padding-top: 90px ;
+  
+}
+
+
+/* food  */
+
+.food{
+  padding-top: 50px;
+  background-color: rgb(248, 248, 248);
+  margin-bottom: 65px;
+  padding-bottom: 77px;
+}
+.hh h2{
+  padding-bottom: 50px;
+  padding-top: 50px;
+  text-align: center;
+  color: #261B6C;
+  font-family: 'MontserratBold';
+}
+.food .foodimg img{
+  padding-bottom: 51px;
+}
+ .food p{
+  color: white;
+ position: absolute;
+ top: 70%;
+ font-size: 26px;
+ font-family: 'MontserratSemiBold';
+ }
+.btn2{
+  color: white;
+  background-color:  #B2904C;
+  font-family: 'AvenirLTStd85Heavy';
+  padding: 13px 45px 13px 45px ;
+  border-radius: 3px;
+  border: none;
+  font-size: 20px;
+  margin-left: 38%
+}
+
+/* tour */
+.tour{
+  margin-top: 40px;
+  margin-bottom: 10%;
+
+}
+.tour .part1 h2{
+ color: #261B6C;
+ font-family: 'MontserratBold';
+ font-weight: 800;
+
+}
+.tour  .part1 p{
+  color:  #261B6C;
+  width: 74%;
+  font-size: 18px;
+  font-family: 'AvenirLTStd35Light/Avenir';
+  font-weight: 400;
+}
+.btn3{
+  color: white;
+  background-color:  #B2904C;
+  font-family: 'AvenirLTStd85Heavy';
+  padding: 13px 45px 13px 45px ;
+  border-radius: 3px;
+  border: none;
+  font-size: 20px;
+}
+.part1{
+  padding-top: 100px;
+}
+/*                tour modal            */
+
+.modal-dialog .modal-content{
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 131%;
+    color: var(--bs-modal-color);
+    pointer-events: auto;
+    background-color: var(--bs-modal-bg);
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+}
+.buttoncloce{
+  background-color: #261B6C;
+}
+/* donation */
+
+.donation{
+  background-color: rgb(248, 248, 248);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.image2{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.part2{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.part2 h2{
+  color: #261B6C;
+  font-family: 'MontserratBold';
+ font-weight: 800;
+}
+.part2 p{
+  color: #261B6C;
+  width: 72%;
+  font-size: 18px;
+  font-family: 'AvenirLTStd35Light/Avenir';
+ 
+}
+.btn4{
+  background-color:  #B2904C;
+  color: white;
+  padding: 13px 45px 13px 45px ;
+  font-family: 'AvenirLTStd85Heavy';
+  border-radius: 3px;
+  border: none;
+  font-size: 20px;
+  display: flex;
+}
+/*               donation modal              */
+
+
+/* kids */
+
+.kids{
+  background-image: url("./img/Rectangle01.png");
+  background-color: white;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+.container .kids{
+  margin-top: 70px;
+}
+.image3{
+  display: flex;
+}
+.KIDD{
+  padding-top: 15%;
+  
+}
+.kids h3{
+  color: white;
+  font-family: '3Dumb';
+  font-size: 90px;
+  font-weight: 400;
+}
+.kids p{
+  color: white;
+  font-family: 'AvenirLTStd35Light/Avenir';
+  width: 76%;
+  text-align: center;
+  padding-left: 100px;
+}
+.kids .btn5{
+  background-color: #FF4655;
+  color: white;
+  padding: 13px 45px 13px 45px ;
+  font-family: 'AvenirLTStd85Heavy';
+  font-size: 20px;
+  margin-left: 170px;
+
+}
+
+/* cards */
+
+.ccard{
+  padding-top: 2%;
+  padding-bottom: 5%;
+}
+.ccard h2{
+  font-family: 'MontserratBold';
+  color: #261B6C;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.ccard button{
+  font-family: 'AvenirLTStd85Heavy';
+  
+}
+.bloc-tabs {
+  display: flex;
+}
+.tabs {
+
+  padding: 15px;
+  width: 50%;
+  background: rgba(128, 128, 128, 0.075);
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+  margin-bottom: 25px;
+}
+.tabs:not(:last-child){
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+.active-tabs  {
+  background: white;
+  border-bottom: 1px solid transparent;
+}
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+ background-color: #B2904C;
+}
+button {
+  border: none;  
+}
+.content-tabs {
+  flex-grow : 1;
+}
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+.content p {
+  width: 100%;
+  height: 100%;
+}
+.active-content {
+  display: block;
+}
+button img{
+  width: 40px;
+  background-color: #B2904C;
+  border-radius: 30px;
+}
+.content hr{
+  width: 100%;
+  height:  2px;
+  background:#222 ;
+  margin-bottom: 5px;
+}
+.content h5{
+  color: #261B6C;
+  font-weight: bold;
+  font-family: 'MontserratBold';
+  font-weight: 900;
+  padding-top: 15px;
+}
+.content p {
+  color: #261B6C;
+  font-size: 15px;
+  font-family: 'MontserratSemiBold';
+}
+.content p span{
+  color: #B2904C;
+}
+.card{
+ text-align: start;
+ padding: 6px ;
+ box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+ height: 100%;
+ padding-bottom: 17%;
+}
+.card button{
+  background-color: #B2904C;
+  width: 65px;
+  margin-left: 75%;
+  margin-top: -25%;
+}
+
+
+/* submit */
+
+.submit{
+  background-image: url("../src/img/Promo.png");
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 50px;
+  
+}
+.submit h2{
+color: white;
+width: 88%;
+margin-top: 100px;
+font-family: 'MontserratBold';
+
+}
+ .submit .form-control{
+  background-color: rgb(202, 166, 83);
+ }
+.btn6{
+  background-color: #261B6C;
+  color: white;
+  font-size: 20px;
+  font-family: 'AvenirLTStd85Heavy';
+}
+/* .submit .imagge{
+  width: 40%;
+  margin-left: -150px;
+  object-fit: cover;
+} */
+.submit .imagge img{
+  width: 80%;
+  margin-left: -200px;
+}
+
+
+
+/*     second page       */
+
+.About{
+  background-color: white;
+ 
+}
+.about{
+  background-color: white;
+    margin: 0 48px;
+    position: relative;
+}
+.about h1{
+  position: absolute;
+  bottom: 0;
+  color: white;
+  left:  42px;
+  font-family: 'MontserratBold';
+}
+.ourMission{
+  background-color: #F7F5E8;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.missionItems{
+  padding: 8% ;
+}
+.missionItems h2{
+  color: #261B6C;
+  font-family: 'MontserratBold';
+}
+.missionItems p{
+  color: #261B6C;
+  width: 74%;
+  padding: 10px;
+  font-family: 'AvenirLTStd35Light/Avenir';
+}
+
+
+/* our core value   */
+.ourCore h2{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 40px;
+  font-family: 'MontserratSemiBold';
+  font-weight: 800;
+}
+
+.ourCore {
+  
+  padding-bottom: 30px;
+  background-color: #F8F8F8;
+  color: #261B6C;
+  font-size: 14px;
+ 
+}
+.ourCore h3{
+  padding-top: 20px;
+  color: #261B6C;
+  text-align: center;
+  font-family: 'MontserratSemiBold';
+ font-size: 800;
+}
+.ourCore p{
+  padding-bottom: 30px;
+ color:   #261B6C;
+ width: 87%;
+ text-align: center;
+ font-family: 'AvenirLTStd35Light/Avenir';
+}
+
+.innerCore{
+  padding: 0 5%;
+}
+.ourCore .coreitems img:nth-child(5){
+   width: 400px;
+}
+
+/* promise   */
+
+.promiseOf{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.inner-promiseOf{
+  padding: 0 10px;
+  
+}
+.inner-promiseOf p{
+    width: 122%;
+    padding-right: 101px;
+    line-height: 21px;
+    color: #261B6C;
+    font-family: 'AvenirLTStd35Light/Avenir';
+}
+.inner-promiseOf h2{
+  font-family: 'MontserratSemiBold';
+  font-weight: 900;
+  color: #261B6C;
+}
+
+
+
+
+/* thrid page     */
+.pprodduct{
+  background-color: white;
+  
+}
+
+.Product{
+    margin: 0 48px;
+    position: relative;
+    /* background-color: white; */
+}
+.Product h1{
+  font-family: 'MontserratBold';
+  position: absolute;
+  bottom: 0;
+  color: white;
+  left:  42px;
+}
+
+.Tabs{
+  margin-left: 7% ;
+  margin-right: 7%;
+  background-color: white;
+}
+.Tabs h2{
+  font-family: 'MontserratBold';
+  color: #261B6C;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 60px;
+   padding-bottom: 60px;
+}
+ /* .recipe h2{
+  color: #261B6C;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 40px;
+} */
+/*     tabs   */
+.bloc-tabs {
+  display: flex;
+}
+.tabs {
+  padding: 15px;
+  text-align: center;
+  width: 50%;
+  background: rgba(128, 128, 128, 0.075);
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+.tabs:not(:last-child){
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+  font-family: 'MontserratSemiBold';
+  font-size: 30px;
+  font-weight: 900;
+
+}
+
+.active-tabs  {
+  background: white;
+  border-bottom: 1px solid transparent;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  background: #B2904C;
+}
+
+button {
+  border: none;
+  color: #261B6C;
+  /* font-size: 25px; */
+  border-radius: 10px;
+}
+
+.card1{
+  background-color: #F7F5E8;
+  border: none;
+  width: 103%;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+.card1 img{
+  margin-top: -70px;
+  margin-bottom: -34px;
+}
+.card1 p{
+  width: 81%;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'AvenirLTStd35Light/Avenir';
+  margin-left: 34px;
+}
+.card1 h5{
+  color: #261B6C;
+  text-align: center;
+  font-size: 25px;
+  width: 60%;
+  margin-left: 70px;
+}
+
+.card2 {
+  background-color: #F7F5E8;
+  border: none;
+  width: 103%;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+.card2 p{
+  text-align: center;
+  font-size: 15px;
+  width: 83%;
+  margin-left: 34px;
+  font-family: 'AvenirLTStd35Light/Avenir';
+}
+.card2 h5{
+  color: #261B6C;
+  text-align: center;
+  font-size: 25px;
+  width: 60%;
+  margin-left: 70px;
+}
+
+.card3 {
+  background-color: #F7F5E8;
+  border: none;
+  width: 103%;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+.card3 p{
+  text-align: center;
+  font-size: 15px;
+  width: 83%;
+  margin-left: 34px;
+  font-family: 'AvenirLTStd35Light/Avenir';
+}
+.card3 h5{
+  color: #261B6C;
+  text-align: center;
+  font-size: 25px;
+  width: 60%;
+  margin-left: 70px;
+}
+
+.card4 {
+  background-color: #F7F5E8;
+  border: none;
+  width: 103%;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+.card4 p{
+  text-align: center;
+  font-size: 15px;
+  width: 83%;
+  margin-left: 34px;
+  font-family: 'AvenirLTStd35Light/Avenir';
+}
+.card4 h5{
+  color: #261B6C;
+  text-align: center;
+  font-size: 25px;
+  width: 60%;
+  margin-left: 70px;
+}
+
+/*  recipes    */
+.recipe{
+  background-color: white;
+  
+}
+.recipe h2{
+  font-family: 'MontserratSemiBold';
+  text-align: center;
+  color: #261B6C;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-size: 40px;
+}
+
+.BakersItem h1{
+  color: #261B6C;
+  width: 71%;
+  padding: 0 10px;
+  font-family: 'MontserratBold';
+  font-weight: 800;
+}
+.BakersItem h4{
+  color: #261B6C;
+  font-size: 16px;
+    width: 76%;
+    font-family: 'AvenirLTStd35Light/Avenir';
+}
+.BakersItem p{
+  color: #B2904C;
+  font-family: 'MontserratSemiBold';
+  font-weight: 800;
+}
+.bakerstitle {
+  padding-top: 20%;
+}
+
+.imagge img{
+  width: 40%;
+  padding: 10px;
+}
+
+/* tik tic animation */
+ /* .innerBakers body{
+  background:#000;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.loader{
+  width:50px;
+  height:50px;
+  position:relative;
+}
+
+.loader::after,.loader::before{
+  content:'';
+  position:absolute;
+  width:inherit;
+  height:inherit;
+  border-radius:50%;
+  mix-blend-mode:multiply;
+  animation:rotate 1s infinite cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.loader::before{
+  background-color:#fc3f9e;
+}
+
+.loader::after{
+  background-color:#50e8f3;
+  animation-delay:.5s;
+}
+
+@keyframes rotate{
+  0%,100%{
+    left:75px;
+  }
+  25%{
+    transform:scale(.3);
+  }
+  50%{
+    left:0;
+  }
+  75%{
+    transform:scale(1);
+  }
+}  */
+
+
+
+
+/*     kids  first section    */
+.Corner{
+  background-color: white;
+}
+.kids-corner{
+  background-color: white;
+  margin: 0 40px;
+}
+/* second section */
+.spaceShip{
+background-color: #ffffff;
+padding-top: 2%;
+margin-bottom: 10px;
+}
+.spaceShip .inner-spaceShip {
+  background-color: #018BF1;
+  border-radius: 10px;
+  padding: 25px;
+}
+.title{
+  padding-top : 10px;
+}
+.spaces h3{
+  font-family: 'MontserratBold';
+  color: white;
+}
+.spaces p{
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  width: 78%;
+  font-family: 'AvenirLTStd35Light/Avenir';
+  font-weight: 750;
+}
+.title{
+  padding-top : 10px;
+}
+.spaces button{
+  background-color: #B2904C;
+  color: white;
+  background-color: #B2904C;
+  padding: 13px 39px 13px 39px ;
+  border-radius: 1px;
+  font-family: 'AvenirLTStd85Heavy';
+  font-weight: 750;
+}
+/*      thrid     */
+.riskyWay{
+background-color: #ffffff;
+color: white;
+padding-top: 2%;
+margin-bottom: 10px;
+}
+.inner-riskyWay{
+  background-color: #FF4655;
+  border-radius: 10px;
+  padding: 25px;
+}
+.way button{
+  background-color: white;
+  padding: 13px 39px 13px 39px ;
+  color: #FF4655;
+  font-size: 20px;
+  border-radius: 1px;
+  font-family: 'AvenirLTStd85Heavy';
+}
+.way h3{
+  font-family: 'MontserratBold';
+}
+
+.way p{
+  font-family: 'AvenirLTStd35Light/Avenir';
+  font-weight: 900;
+  width: 67%;
+}
+/* fourth */
+.pacmanKiss{
+  background-color: #ffffff;
+  color: white;
+  padding-top: 2%;
+  margin-bottom: 20px;
+}
+.inner-pacmanKiss{
+  background-color: #261B6C;
+  border-radius: 10px;
+  padding: 25px;
+  
+}
+.inner-pacmanKiss button{
+  background-color: #B2904C;
+  color: white;
+  background-color: #B2904C;
+  padding: 13px 39px 13px 39px ;
+  border-radius: 1px;
+  font-family: 'AvenirLTStd85Heavy';
+}
+.kiss h3{
+  font-family: 'MontserratBold';
+}
+.kiss p{
+  font-family: 'AvenirLTStd35Light/Avenir';
+  font-weight: 900;
+  width: 68%;
+}
+
+
+/*  Contact  last page     */
+.CContact{
+  background-color: white;
+}
+.contact{
+  margin: 0 40px;  
+  position: relative;
+}
+.contact h1{
+  position: absolute;
+    bottom: 2%;
+    color: white;
+    left: 60px;
+    font-family: 'MontserratBold';
+}
+/*     Location    */
+.Contact{
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+.inner-Contact{
+  background-color: #F7F5E8;
+  padding: 5%;
+}
+.ContactItems .para{
+  width: 70%;
+  color: #261B6C;
+}
+.ContactItems h4{
+  font-family: 'MontserratBold';
+  color: #261B6C;
+  padding-top: 20px;
+  padding-bottom: 20px;
+} 
+.ContactItems p{
+  color: #261B6C;
+  font-family: 'AvenirLTStd35Light/Avenir';
+  opacity: 0.8;
+}
+.ContactItems h6{
+  color: #261B6C;
+  font-family: 'AvenirLTStd85Heavy';
+}  
+/* Contact       CContact */
+.CContact h2{
+  text-align: center;
+  color: #261B6C;
+  font-family: 'MontserratBold';
+  font-weight: 800;
+}
+.list{
+  color: #261B6C;
+}
+.inner-list{
+  padding-left: 11%;
+  font-size: 18px;
+}
+.inner-list h6{
+  font-size: 22px;
+}
+.list1{
+  border-right: #F7F5E8 solid;
+  padding-bottom: 8%;
+}
+.list1 h6{
+  border-bottom: #F7F5E8 solid;
+  padding-bottom: 9%;
+  font-family: 'AvenirLTStd85Heavy';
+  font-size: 24px;
+  opacity: 0.8;
+}
+.list1 p{
+  opacity: 0.8;
+  font-family: 'AvenirLTStd85Heavy';
+  font-size: 20px;
+}
+.list2{
+  border-right: #F7F5E8 solid;
+}
+.list2 h6{
+  border-bottom: #F7F5E8 solid;
+  padding-bottom: 4%;
+  font-family: 'AvenirLTStd85Heavy';
+  font-size: 24px;
+  opacity: 0.8;
+}
+.list2 p{
+  opacity: 0.8;
+  font-family: 'AvenirLTStd35Light/Avenir';
+  font-size: 20px;
+}
+.list3 h6{
+  border-bottom: #F7F5E8 solid;
+  padding-bottom: 9%;
+  font-family: 'AvenirLTStd85Heavy';
+  font-size: 24px;
+  opacity: 0.8;
+}
+.list3 p{
+  opacity: 0.8;
+  font-family: 'AvenirLTStd85Heavy';
+  font-size: 20px;
+}
+.email{
+  background-color: #F8F8F8;
+  margin-bottom: 5%;
+  padding-bottom: 4%;
+}
+.inner-email{
+  text-align: center;
+  color: #261B6C;
+  font-size: 18px;
+}
+.inner-email img{
+  padding: 67px;
+}
+.inner-email p{
+  font-family: 'AvenirLTStd35Light/Avenir';
+}
+.inner-email .para2{
+  font-size: 22px;
+}
+.dd{
+  height: 2px;
+    background-color: #261B6C;
+    width: 30%;
+    margin-left: 212px;
+    margin-top: -19px;
+}
+.ddd{
+  height: 2px;
+    background-color: #261B6C;
+    width: 40%;
+    margin-left: 180px;
+    margin-top: -19px;
+}
+.call-back{
+  padding-top: 20px;
+  padding-bottom: 85px;
+}
+.call-back h2{
+  font-size: 50px;
+}
+.call-back p{
+ text-align: center;
+ color: #261B6C;
+ padding-bottom: 37px;
+ font-family: 'AvenirLTStd35Light/Avenir';
+ font-size: 20px;
+}
+.call-back .mb-3{
+  padding-bottom: 27px;
+    padding-left: 20px;
+    padding-right: 80%;
+    padding-top: 1px;
+    border: none;
+    background-color: #F7F5E8;
+}
+.call-back button{
+  width: 100%;
+  margin-top: 30px;
+  color: white;
+  background-color: #B2904C;
+  height:102% ;
+  border-radius: 5px;
+}
+.call-back .form-control{
+background-color:#F7F5E8;
+padding: 15px;
+border: none;
+}
+.call-back .form-control .message222{
+  height: 20px;
+}
+
+
+/*        RequestProduct/ button on the firtst page      */
+.RequestProduct{
+  background-color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.inner-RequestProduct{
+  background-color: white;
+}
+.inner-RequestProduct h2{
+  text-align: center;
+  color: #261B6C;
+  font-family: 'MontserratBold';
+}
+.inner-RequestProduct p{
+  text-align: center;
+  color: #261B6C;
+  font-family: 'MontserratRegular';
+}
+.inner-RequestProduct .form-control{
+  background-color: #F7F5E8;
+  padding: 15px;
+  border: none; 
+}
+.inner-RequestProduct button{
+  width: 100%;
+  margin-top: 30px;
+  color: white;
+  background-color: #B2904C;
+}
+.BookFactory{
+  background-color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.inner-BookFactory{
+  background-color: white;
+}
+.inner-BookFactory h2{
+  text-align: center;
+  color: #261B6C;
+  font-family: 'MontserratBold';
+}
+.inner-BookFactory .form-control{
+  background-color: #F7F5E8;
+  padding: 15px;
+  border: none; 
+}
+.inner-BookFactory p{
+  text-align: center;
+  color: #261B6C;
+  font-family: 'MontserratRegular';
+}
+.inner-BookFactory button{
+  width: 100%;
+  margin-top: 30px;
+  color: white;
+  background-color: #B2904C;
+}
+
+/*          footer       */
+
+.footer{
+  background-image: url("../src/img/Rectangle 1.png");
+  color: white;
+  margin-top: 7%;
+ 
+}
+.footer .footerimg img{
+  margin-left: 45%;
+  width: 8%;
+  position: relative;
+  top: 24px;
+}
+.footerline{
+  height: 3px;
+  background-color: #ffffff;
+  width: 93%;
+  margin-left: 30px;
+}
+.inner-footer{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.inner-footer ul li {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.inner-footer img {
+  width: 14%;
+  padding: 10px;
+  flex-direction: row;
+}
+.inner-footer .list5 img{
+  width: 26%;
+}
+.inner-footer h3{
+  font-size: 23px;
+  font-family: 'AvenirLTStd85Heavy';
+  padding-top: 20px
+}
+.list9 img{
+  width: 2.9%;
+  padding-left: 15px;
+ }
+ .inner-innscor{
+  padding-top: 30px;
+ }
+ .loggo p{
+  font-size: 19px;
+  font-family: 'AvenirLTStd35Light/Avenir';
+  font-weight: 750;
+ }
+.footer .loggo img{
+  width: 100px;
+  margin-top: -22px;
+}
+p span{
+  color: #B2904C;
+  font-weight: 750;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width:500px) and (max-width: 768px) { 
+  .app .logo img{
+    width: 83%; 
+     }
+  .header .hometxt h1{
+   margin: 0px;
+   justify-content: center;
+  }
+  .header1 {
+    flex-direction: column-reverse;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    
+  }
+  .header1 .hometxt p{
+   width: 87%; 
+    justify-content: center;
+    font-size: 23px;
+  }
+
+  .hometxt button{
+    font-size: 23px;
+  }
+
+
+/*   first-page  about    */
+
+.header .about{
+  margin: 0px;
+}
+
+.innerAbout{
+  display: flex;
+  flex-direction: column;
+}
+.innerAbout h2{
+  padding-bottom: 20px;
+    text-align: center;
+}
+ .innerAbout .para  {
+  text-align: center;
+    width: 153%;
+    position: relative;
+    right: 93px;
+    font-size: 23px;
+ }    
+
+ .innerAbout .btn1{
+  margin-left: 76px;
+  font-size: 23px;
+ }
+
+ .imm{
+  padding: 25px;
+  padding-bottom: 0px;
+ }
+ .imm img{
+  padding-bottom: 25px;
+  width: 98%;
+ }
+  
+
+ /* food  */
+
+.food .foodimg img{
+  padding-bottom: 25px;
+  width: 98%;
+}
+
+.food p{
+  padding: 44px;
+  padding-left: 108px;
+  font-size: 38px;
+}
+.btn2{
+  Position: relative;
+  top: 42px;
+  left: -94px;
+}
+
+/* tour */
+.tour{
+  
+}
+.tour .part1 h2{
+  text-align: center;
+  position: relative;
+  bottom: 103px;
+}
+.tour  .part1 p{
+  text-align: center;
+    width: 96%;
+    position: relative;
+    right: -26px;
+    top: -67px;
+    font-size: 23px;
+}
+.btn3{
+position: relative;
+top: -39px;
+left: 110px;
+
+}
+
+
+
+/* donation */
+.donation{
+  
+}
+.part2 h2{
+  padding-bottom: 26px;
+  bottom: 24px;
+  position: relative;
+  text-align: center;
+}
+.part2 p{
+  text-align: center;
+    width: 100%;
+    position: relative;
+    right: -3px;
+    font-size: 23px;
+}
+.btn4{
+  position: relative;
+    top: 21px;
+    left: 114px;
+    font-size: 23px;
+}
+  
+
+/* kids */
+.kids{
+  margin-top: 45px;
+}
+.kids h3{
+text-align: center;
+}
+.kids p{
+  width: 98%;
+  padding: 13px;
+  font-size: 23px;
+}
+.kids .btn5{
+  position: relative;
+    right: -31px;
+    margin-bottom: 47px;
+}
+
+/* cards */
+.card{
+  padding-bottom: 0;
+  margin-bottom: 29px;
+}
+.ccard h2{
+  padding-bottom: 48px;
+    padding-top: 39px;
+}
+.card button{
+  margin-top: -99px;
+    margin-bottom: 21px;
+    width: 97px
+}
+.content h5{
+font-size: 23px;
+}
+.content p{
+  font-size: 18px;
+}
+.tabs:not(:last-child){
+  font-size: 20px;
+}
+
+/* submit */
+.submit{
+  flex-direction: column-reverse;
+  margin-bottom: 20%;
+}
+.submit h2{
+  text-align: center;
+  width: 431px;
+  padding-bottom: 20px;
+  }
+.submit .imagge img{
+  margin: -63px;
+    margin-top: 3%;
+    width: 56%;
+    display: none;
+}
+.submit .container{
+ width: 85%;
+}
+.submit .btn6{
+  margin-bottom: 126px;
+}
+
+/* SECOND PAGE */
+.missionItems h2{
+  font-size: 28px;
+}
+.missionItems p{
+  font-size: 23px;
+  width: 106%;
+}
+/* our core value */
+.ourCore h3{
+font-size: 35px;
+}
+.ourCore p {
+  font-size: 23px;
+  width: 100%;
+}
+/*    promise */
+.inner-promiseOf h2{
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 7px;
+}
+.inner-promiseOf p{
+  width: 124%;
+    font-size: 24px;
+    padding-top: 1px;
+    line-height: 34px;
+    text-align: center;
+}
+
+/* THRID PAGE */
+
+
+
+/*    FOURTH PAGE    */
+
+.BakersItem h1{
+  width: 106%;
+  text-align: center;
+}
+.BakersItem h4{
+  text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    font-size: 23px;
+}
+.BakersItem p{
+  font-size: 23px;
+  text-align: center;
+}
+.imagge img{
+  width: 50%;
+  margin-top: -56px;
+}
+
+/*    FIFFHY PAGE     */
+
+.spaceShip .inner-spaceShip{
+  display: flex;
+    flex-direction: column-reverse;
+}
+.spaces h3{
+  font-size: 33px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+.spaces p{
+  font-size: 23px;
+  line-height: 34px;
+  text-align: center;
+  width: 101%;
+}
+.spaces button {
+  margin-left: 34%;
+  font-size: 23px;
+}
+.riskyWay .inner-riskyWay{
+  display: flex;
+    flex-direction: column-reverse;
+}
+.way h3{
+  font-size: 33px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+.way p{
+  font-size: 23px;
+  line-height: 34px;
+  text-align: center;
+  width: 101%;
+  padding-bottom: 20px;
+}
+.way button {
+  margin-left: 34%;
+  font-size: 23px;
+}
+.inner-pacmanKiss{
+  display: flex;
+    flex-direction: column-reverse;
+}
+.kiss h3{
+  font-size: 33px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+.kiss p{
+  font-size: 23px;
+  line-height: 34px;
+  text-align: center;
+  width: 101%;
+  padding-bottom: 20px;
+}
+.kiss button {
+  margin-left: 34%;
+  font-size: 23px;
+}
+/*      SIXTH PAGE       */
+.ContactItems h4{
+  text-align: center;
+}
+.ContactItems .p{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+
+
+
+/*       FOOTER       */
+
+.footer .inner-footer{
+  font-size: 27px;
+    display: flex;
+    padding-left: 28px;
+    flex-direction: column-reverse;
+}
+.inner-footer .list5 img {
+  width: 32%;
+}
+.loggo p{
+  font-size: 25px;
+}
+.list9 img {
+  width: 10%;
+  padding-left: 15px;
+}
+.footer .loggo img{
+  width: 156px;
+}
+.inner-innscor p{
+  font-size: 22px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ }
