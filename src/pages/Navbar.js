@@ -16,15 +16,6 @@ import Kids from './Kids';
 const Navbar = () => {
 	return (
 		<>
-			{/* <Nav>
-				<NavMenu>
-
-
-
-
-
-				</NavMenu>
-			</Nav> */}
 
 			<Nav className="navbar navbar-expand-lg ">
 
