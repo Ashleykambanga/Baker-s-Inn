@@ -27,12 +27,13 @@ const Home = () => {
             </div>
 
             <div className="about">
-                <div className="  innerAbout">
+                <div className=" row innerAbout">
 
-                    <div className="col-md-6">
+                    <div className="col-12 col-md-6 col-lg-4 col-xl-6 col-xxl-6">
                         <h2>About Baker’s Inn</h2>
                     </div>
-                    <div className="col-md-6 ">
+
+                    <div className="col-12 col-md-6 col-lg-4 col-xl-6 col-xxl-6">
                         <p className="para">
                             It all started back in the eighties when Baker's Inn was just a small
                             confectionery company that employed 40 people and produced about
@@ -41,21 +42,22 @@ const Home = () => {
                         </p>
                         <NavLink className="btn1" to="/about">READ MORE</NavLink>
                     </div>
+
                 </div>
 
                 <div className="imm">
                     <div className="">
                         <div className="row">
-                            <div className="col-md-3">
+                            <div className="col-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
                                 <img src={require('../img/Rectangle 12.png')} alt="Rectangle 12.png" className="img-fluid" />
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
                                 <img src={require('../img/Rectangle 14.png')} alt="Rectangle 14.png" className="img-fluid" />
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
                                 <img src={require('../img/Rectangle 15.png')} alt="Rectangle 15.png" className="img-fluid" />
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
                                 <img src={require('../img/Rectangle 16.png')} alt="Rectangle 16.png" className="img-fluid" />
                             </div>
                         </div>
@@ -71,19 +73,19 @@ const Home = () => {
                 </div>
                 <div className="container foodimg">
                     <div className="row">
-                        <div className="col-12 col-sm-12 col-md-3 col-lg-3">
+                        <div className="col-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
                             <img src={require('../img/Rectangle 22.png')} alt="Rectangle 22.png" className="img-fluid" />
                             <p>Bread</p>
                         </div>
-                        <div className="col-12 col-md-3 col-lg-3">
+                        <div className="col-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
                             <img src={require('../img/Rectangle 24.png')} alt="Rectangle 24.png" className="img-fluid" />
                             <p>Meat pies</p>
                         </div>
-                        <div className="col-12 col-md-3">
+                        <div className="col-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
                             <img src={require('../img/Rectangle 26.png')} alt="Rectangle 26.png" className="img-fluid" />
                             <p>Scones</p>
                         </div>
-                        <div className=" col-12 col-md-3 col-lg-3">
+                        <div className="col-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
                             <img src={require('../img/Rectangle 28.png')} alt="Rectangle 28.png" className="img-fluid" />
                             <p>Donuts</p>
                         </div>
@@ -98,7 +100,7 @@ const Home = () => {
             <div className="tour">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6 part1">
+                        <div className="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 part1">
                             <h2>
                                 Book A Factory Tour
                             </h2>
@@ -196,7 +198,7 @@ const Home = () => {
                         {/* modal */}
 
 
-                        <div className="col-md-6">
+                        <div className="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-66">
                             <img src={require('../img/Rectangle 32.png')} alt="Rectangle 32.png" className="img-fluid" />
                         </div>
 
@@ -210,7 +212,7 @@ const Home = () => {
                         <div className="col-md-6 image2">
                             <img src={require('../img/Rectangle 31.png')} alt="Rectangle 31.png" className="img-fluid" />
                         </div>
-                        <div className="col-md-6 part2">
+                        <div className="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 part2">
                             <h2>
                                 Request A Donation
                             </h2>
@@ -312,7 +314,7 @@ const Home = () => {
                 <div className="container">
                     <div className="row">
 
-                        <div className="col-md-6 image3">
+                        <div className="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 image3">
                             <img src={require('../img/Group 10.png')}
                                 alt="Group 10" className="img-fluid" />
 
@@ -326,7 +328,7 @@ const Home = () => {
                                 alt="2cd43b_19a192ae6ec44ffc9597044f7f063e0c_mv2 1.png" className="img-fluid"  /> */}
 
                         </div>
-                        <div className="col-md-6 KIDD ">
+                        <div className="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 KIDD ">
                             <h3>
                                 Kids Corner
                             </h3>
@@ -351,7 +353,7 @@ const Home = () => {
             <div className="submit">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className=" col-12 col-md-6">
                             <h2>
                                 Get Notified About Promotions We Offer
                             </h2>

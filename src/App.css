@@ -1,40 +1,6 @@
- .app .logo img{
-width: 100%;
-position: relative;
-right: 141px; 
- }
- /* .NavMenu {
- display: flex;
- align-items: center;
- margin-right: -24px;
- }
- .NavLink {
- color: #261B6C;
- display: flex;
- align-items: center;
- text-decoration: none;
- padding: 0 1rem;
- height: 100%;
- cursor: pointer;
- &.active {
-  color:rgb(45, 1, 112);
- }
- }
-.Nav {
-background: white;
-height: 210px;
-display: flex;
-justify-content: space-between;
-padding: 0.2rem calc((100vw - 1000px) / 2);
-z-index: 12;
-
+body,html{
+  overflow-x: hidden;
 }
-.NavMenu {
-display: flex;
-align-items: center;
-margin-right: -24px;
-
-} */
 @font-face {
   font-family: 'AvenirLTStd85Heavy';
   src: url('./AvenirLTStd/AvenirLTStd85Heavy/AvenirHeavy.otf');
@@ -82,20 +48,21 @@ margin-right: -24px;
   font-family: '3Dumb';
   src: url('./3dumb/3Dumb.ttf');
 }
-
-
 .body,html{
   overflow-x: hidden;
 }
+.btn-contact{
+  background-color: #B2904C;
+  color: white;
+  border-radius: 2px;
+}
  .header{
   background-color: white; 
- 
  }
 .header1{
   background-image: url("./img/Rectangle01.png");
   display: flex;
 }
-
 .header1 .hometxt h1{
   color: white;
   width: 100%;
@@ -118,6 +85,7 @@ margin-right: -24px;
   padding: 13px 39px 13px 39px ;
   border-radius: 1px;
   font-family: 'AvenirLTStd85Heavy';
+  text-decoration: none;
 }
 .image{display: flex;
 }
@@ -139,8 +107,7 @@ margin-right: -24px;
 .header .about{
  padding-top: 80px;
  padding-bottom: 80px;
- background-color: white;
- 
+ background-color: white; 
 }
 .innerAbout{
   background-color: white;
@@ -151,7 +118,6 @@ margin-right: -24px;
 .innerAbout h2{
   font-family: 'MontserratBold';
   color:rgb(45, 1, 112);
-  
 }
 .innerAbout .para{
   color: rgb(86, 65, 141);
@@ -160,7 +126,6 @@ margin-right: -24px;
   width: 103%;
   padding-bottom: 30px;
 }
-
 .innerAbout .btn1{
   background-color: #B2904C;
   border: none;
@@ -171,14 +136,11 @@ margin-right: -24px;
   font-size: 17px;
   border-radius: 1px;
   font-weight: 750;
+  text-decoration: none;
 }
-
 .imm{
   padding-top: 90px ;
-  
 }
-
-
 /* food  */
 
 .food{
@@ -212,20 +174,19 @@ margin-right: -24px;
   border-radius: 3px;
   border: none;
   font-size: 20px;
-  margin-left: 38%
+  margin-left: 38%;
+  text-decoration: none;
 }
 
 /* tour */
 .tour{
   margin-top: 40px;
   margin-bottom: 10%;
-
 }
 .tour .part1 h2{
  color: #261B6C;
  font-family: 'MontserratBold';
  font-weight: 800;
-
 }
 .tour  .part1 p{
   color:  #261B6C;
@@ -242,6 +203,7 @@ margin-right: -24px;
   border-radius: 3px;
   border: none;
   font-size: 20px;
+  text-decoration: none;
 }
 .part1{
   padding-top: 100px;
@@ -263,6 +225,7 @@ margin-right: -24px;
 }
 .buttoncloce{
   background-color: #261B6C;
+  text-decoration: none;
 }
 /* donation */
 
@@ -300,6 +263,7 @@ margin-right: -24px;
   border: none;
   font-size: 20px;
   display: flex;
+  text-decoration: none;
 }
 /*               donation modal              */
 
@@ -320,7 +284,6 @@ margin-right: -24px;
 }
 .KIDD{
   padding-top: 15%;
-  
 }
 .kids h3{
   color: white;
@@ -342,7 +305,7 @@ margin-right: -24px;
   font-family: 'AvenirLTStd85Heavy';
   font-size: 20px;
   margin-left: 170px;
-
+  text-decoration: none;
 }
 
 /* cards */
@@ -357,7 +320,6 @@ margin-right: -24px;
   text-align: center;
   padding-bottom: 3%;
 }
-
 .ccard button{
   font-family: 'AvenirLTStd85Heavy';
   
@@ -369,20 +331,16 @@ margin-right: -24px;
 
   padding: 15px;
   width: 50%;
-  background: rgba(128, 128, 128, 0.075);
+  background: white;
   cursor: pointer;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
   box-sizing: content-box;
   position: relative;
   outline: none;
   margin-bottom: 25px;
 }
-.tabs:not(:last-child){
-  border-right: 1px solid rgba(0, 0, 0, 0.274);
-}
+
 .active-tabs  {
   background: white;
-  border-bottom: 1px solid transparent;
 }
 .active-tabs::before {
   content: "";
@@ -472,14 +430,12 @@ button img{
   margin-left: 7%;
   margin-right: 7%;
   margin-bottom: 50px;
-  
 }
 .submit h2{
 color: white;
 width: 88%;
 margin-top: 100px;
 font-family: 'MontserratBold';
-
 }
  .submit .form-control{
   background-color: rgb(202, 166, 83);
@@ -489,6 +445,7 @@ font-family: 'MontserratBold';
   color: white;
   font-size: 20px;
   font-family: 'AvenirLTStd85Heavy';
+  text-decoration: none;
 }
 /* .submit .imagge{
   width: 40%;
@@ -501,12 +458,10 @@ font-family: 'MontserratBold';
 }
 
 
-
 /*     second page       */
 
 .About{
   background-color: white;
- 
 }
 .about{
   background-color: white;
@@ -539,7 +494,6 @@ font-family: 'MontserratBold';
   font-family: 'AvenirLTStd35Light/Avenir';
 }
 
-
 /* our core value   */
 .ourCore h2{
   text-align: center;
@@ -549,14 +503,11 @@ font-family: 'MontserratBold';
   font-family: 'MontserratSemiBold';
   font-weight: 800;
 }
-
 .ourCore {
-  
   padding-bottom: 30px;
   background-color: #F8F8F8;
   color: #261B6C;
   font-size: 14px;
- 
 }
 .ourCore h3{
   padding-top: 20px;
@@ -572,14 +523,12 @@ font-family: 'MontserratBold';
  text-align: center;
  font-family: 'AvenirLTStd35Light/Avenir';
 }
-
 .innerCore{
   padding: 0 5%;
 }
 .ourCore .coreitems img:nth-child(5){
    width: 400px;
 }
-
 /* promise   */
 
 .promiseOf{
@@ -588,7 +537,6 @@ font-family: 'MontserratBold';
 }
 .inner-promiseOf{
   padding: 0 10px;
-  
 }
 .inner-promiseOf p{
     width: 122%;
@@ -604,14 +552,10 @@ font-family: 'MontserratBold';
 }
 
 
-
-
 /* thrid page     */
 .pprodduct{
   background-color: white;
-  
 }
-
 .Product{
     margin: 0 48px;
     position: relative;
@@ -624,7 +568,6 @@ font-family: 'MontserratBold';
   color: white;
   left:  42px;
 }
-
 .Tabs{
   margin-left: 7% ;
   margin-right: 7%;
@@ -653,31 +596,29 @@ font-family: 'MontserratBold';
   padding: 15px;
   text-align: center;
   width: 50%;
-  background: rgba(128, 128, 128, 0.075);
+  
   cursor: pointer;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  
   box-sizing: content-box;
   position: relative;
   outline: none;
 }
 .tabs:not(:last-child){
-  border-right: 1px solid rgba(0, 0, 0, 0.274);
+  /* border-right: 1px solid rgba(0, 0, 0, 0.274); */
   font-family: 'MontserratSemiBold';
   font-size: 30px;
   font-weight: 900;
-
 }
-
 .active-tabs  {
   background: white;
-  border-bottom: 1px solid transparent;
+  /* border-bottom: 1px solid transparent; */
 }
 
 .active-tabs::before {
   content: "";
   display: block;
   position: absolute;
-  top: -5px;
+  top: 74px;
   left: 50%;
   transform: translateX(-50%);
   width: calc(100% + 2px);
@@ -1296,18 +1237,12 @@ p span{
 
 
 
-
-
-
-
-
-
-
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width:500px) and (max-width: 768px) { 
   .app .logo img{
     width: 83%; 
+   
      }
   .header .hometxt h1{
    margin: 0px;
@@ -1329,7 +1264,9 @@ p span{
   .hometxt button{
     font-size: 23px;
   }
-
+.image{
+  display: none;
+}
 
 /*   first-page  about    */
 
@@ -1347,15 +1284,13 @@ p span{
 }
  .innerAbout .para  {
   text-align: center;
-    width: 153%;
-    position: relative;
-    right: 93px;
-    font-size: 23px;
+  width: 97%;
+  font-size: 23px;
  }    
 
  .innerAbout .btn1{
-  margin-left: 76px;
-  font-size: 23px;
+  margin-left: 176px;
+    font-size: 23px;
  }
 
  .imm{
@@ -1387,9 +1322,6 @@ p span{
 }
 
 /* tour */
-.tour{
-  
-}
 .tour .part1 h2{
   text-align: center;
   position: relative;
@@ -1410,12 +1342,7 @@ left: 110px;
 
 }
 
-
-
 /* donation */
-.donation{
-  
-}
 .part2 h2{
   padding-bottom: 26px;
   bottom: 24px;
@@ -1632,10 +1559,6 @@ font-size: 35px;
 
 
 
-
-
-
-
 /*       FOOTER       */
 
 .footer .inner-footer{
@@ -1661,7 +1584,63 @@ font-size: 35px;
   font-size: 22px;
 }
 
-
-
-
  }
+
+
+
+
+
+ /* Medium devices (tablets, 769px and up)*/
+@media (min-width: 768px) and (max-width: 991) { 
+  .hometxt button{
+  margin-left: 31%;
+}
+.missionItems p {
+  font-size: 30px;
+}
+.missionItems h2{
+  font-size: 44px;
+}
+.innerAbout .para {
+  text-align: center;
+  width: 99%;
+  font-size: 30px;
+}
+.innerAbout .btn1 {
+  margin-left: 35%;
+  text-decoration: none;
+}
+
+/* about page */
+.missionItems p {
+  width: 96%;
+}
+.ourCore .coreitems img{
+  margin-left: 13%;
+}
+.ourCore h3 {
+  font-size: 44px;
+  padding-bottom: 20px;
+}
+.ourCore p{
+  font-size: 30px;
+  line-height: 40px;
+}
+.inner-promiseOf p{
+  font-size: 33px;
+  line-height: 45px;
+}
+/* product page */
+.tabs:not(:last-child) {
+  font-size: 26px;
+}
+.Tabs .content h5{
+  font-size: 37px;
+}
+.Tabs .content p{
+  font-size: 30px;
+}
+
+}
+
+

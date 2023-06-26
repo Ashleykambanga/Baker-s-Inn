@@ -51,11 +51,13 @@ const Navbar = () => {
 									Kid's Corner
 								</NavLink>
 							</li>
+							<button className="btn-contact">
 							<li className="nav-item">
-							<NavLink to="/contact" className="nav-link" activeStyle>
+							<NavLink to="/contact" className="nav-link" activeStyle>					
 						Contact Us
 					</NavLink>
 							</li>
+							</button>
 						</NavMenu>
 					</div>
 				</div>

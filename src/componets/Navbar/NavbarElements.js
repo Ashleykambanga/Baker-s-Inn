@@ -8,22 +8,21 @@ export const Nav = styled.nav`
 // display: flex;
 // justify-content: space-between;
 // padding: 0.2rem calc((100vw - 1000px) / 2);
-
 // z-index: 12;
 
 `;
 
 export const NavLink = styled(Link)`
-// color: #808080;
+ color: #808080;
 // display: flex;
 // align-items: center;
 // text-decoration: none;
 // padding: 0 1rem;
 // height: 100%;
-// cursor: pointer;
-// &.active {
-// 	color:rgb(45, 1, 112);
-// 	font-size: 24px;
+ cursor: pointer;
+ &.active {
+ color: rgb(86, 65, 141);
+font-size: 24px;
 }
 `;
 
@@ -45,8 +44,10 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
 display: flex;
 align-items: center;
-margin-right: -24px;
+margin-right: 50px;
 font-family: 'MontserratBold';
+font-size: 23px;
+color: rgb(86, 65, 141);
 
 white-space: nowrap; */
 // @media screen and (max-width: 768px) {

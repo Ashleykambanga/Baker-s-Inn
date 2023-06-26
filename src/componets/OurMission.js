@@ -100,7 +100,7 @@ const OurMission = () => {
             <div className="container ourMission">
                 <div className="row innerMission">
                     {missionVision.map((vision)=>(
-                        <div className="col-lg-6 missionItems"  key={vision.id}>
+                        <div className="co-12 col-md-12 col-lg-6 missionItems"  key={vision.id}>
                             <div className=" d-flex align-items">
                                 <img src={vision.missionVisionImage} alt="" className="img-fluid"/>
                                 <div >
@@ -118,7 +118,7 @@ const OurMission = () => {
                 <div className="row justify-content-center innerCore">
                     {ourCore.map((value) =>(
                             
-                       <div className="col-lg-4 col-md-6 coreitems" key={value.id}>
+                       <div className="col-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4 coreitems" key={value.id}>
                             <img src={value.ourCoreImage} alt="" className="img-fluid" />
                             <div>
                                 <h3>{value.ourCoreTitle}</h3>
@@ -134,7 +134,7 @@ const OurMission = () => {
                 <div className="container  promiseOf">
                     <div className="row  inner-promiseOf">
                        {promiseOf.map((quality) =>(
-                        <div className="col-12 col-md-12 col-lg-6" key={quality.id}>
+                        <div className="col-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6" key={quality.id}>
                             <img src={quality.promiseOfImage} alt="" className="img-fluid" />
                             <h2>{quality.promiseOfTitle}</h2>
                             <p>{quality.promiseOfTitleSec}</p>

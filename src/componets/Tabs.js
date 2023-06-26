@@ -191,7 +191,7 @@ const [cardMeatPies] = useState ([
                         <div className="container">
                             <div className="row">
                                 {cardBread.map((cards) => (
-                                    <div className="col-12 col-sm-4 col-md-4 col-lg-6 col-xl-6 col-xxl-4">
+                                    <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-4">
                                         <div className="card1" key={cards.id}>
                                             <img src={require('../img/Rectangle 341.png')} alt="" className="img-fluid" />
                                             
@@ -210,7 +210,7 @@ const [cardMeatPies] = useState ([
                         <div className="container">
                             <div className="row">
                                 {cardMeatPies.map((cards) => (
-                                    <div className="col-12 col-sm-4 col-md-4 col-lg-6 col-xl-6 col-xxl-4">
+                                    <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-4">
                                         <div className="card2" key={cards.id}>
                                             <img src={require('../img/Rectangle 359.png')} alt="" className="img-fluid" />
                                             <h5>{cards.cardTitle}</h5>
@@ -229,7 +229,7 @@ const [cardMeatPies] = useState ([
                         <div className="container">
                             <div className="row">
                                 {cardScones.map((cards) => (
-                                    <div className="col-12 col-sm-4 col-md-4 col-lg-6 col-xl-6 col-xxl-4">
+                                    <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-4">
                                         <div className="card3" key={cards.id}>
                                             <img src={require('../img/Rectangle 363.png')} alt="" className="img-fluid" />
                                             <h5>{cards.cardTitle}</h5>
@@ -248,7 +248,7 @@ const [cardMeatPies] = useState ([
                         <div className="container">
                             <div className="row">
                                 {cardDonuts.map((cards) => (
-                                    <div className="col-12 col-sm-4 col-md-4 col-lg-6 col-xl-6 col-xxl-4">
+                                    <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-4">
                                         <div className="card4" key={cards.id}>
                                             <img src={require('../img/Rectangle 359-2.png')} alt="" className="img-fluid" />
                                             <h5>{cards.cardTitle}</h5>
