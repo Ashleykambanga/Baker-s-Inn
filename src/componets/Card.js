@@ -141,7 +141,6 @@ function Tabs() {
                 <div className="col-lg-4">
                   <div className="card " key={cards.id}>
                     <img src={require('../img/Rectangle 12.png')} alt="" srcset="" className="img-fluid" />
-
                     <h5 className="card-title">
                       {cards.cardTitle}
                     </h5>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const OurMission = () => {
+const OurMission = () =>  {
     //*** second *** //
     const [missionVision] = useState([
         {

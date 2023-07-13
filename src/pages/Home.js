@@ -109,7 +109,7 @@ const Home = () => {
                                 Get in touch with us to book a tour of our factory that is
                                 closest to you. Fill in the booking form and we will get
                                 back to you.</p>
-                            
+
                             <button type="button" className="btn3" data-bs-toggle="modal" data-bs-target="#exampleModal1">
                                 BOOK FACTORY TOUR
                             </button>
@@ -159,11 +159,11 @@ const Home = () => {
                                                             <input type="text" class="form-control" placeholder="number of attendants" aria-label="number of attendants" />
                                                         </div>
 
-                                                        
+
                                                     </div>
 
                                                     <div className="col-md-6">
-                                                    <div class="col">
+                                                        <div class="col">
                                                             <label for="inputAddress" class="form-label"></label>
                                                             <input type="text" class="form-control" placeholder="Name Of Contact Person" aria-label="Name Of Contact Person" />
                                                         </div>
@@ -221,7 +221,7 @@ const Home = () => {
                                 donation request form for us to best understand how we
                                 can increase your event’s impact in the local community</p>
 
-                            
+
                             <button type="button" className="btn4" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                                 REQUEST  DONATION
                             </button>

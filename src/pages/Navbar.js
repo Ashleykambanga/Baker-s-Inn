@@ -20,11 +20,11 @@ const Navbar = () => {
 			<Nav className="navbar navbar-expand-lg ">
 
 				<div className="container-fluid">
-				<NavLink to="/" activeStyle className='navbar-brand'>
-					<div classNameName="logo">
-						<img src={logo} alt="logo" />
-					</div>
-				</NavLink>
+					<NavLink to="/" activeStyle className='navbar-brand'>
+						<div classNameName="logo">
+							<img src={logo} alt="logo" />
+						</div>
+					</NavLink>
 					<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 						<span className="navbar-toggler-icon"></span>
 					</button>
@@ -52,11 +52,11 @@ const Navbar = () => {
 								</NavLink>
 							</li>
 							<button className="btn-contact">
-							<li className="nav-item">
-							<NavLink to="/contact" className="nav-link" activeStyle>					
-						Contact Us
-					</NavLink>
-							</li>
+								<li className="nav-item">
+									<NavLink to="/contact" className="nav-link" activeStyle>
+										Contact Us
+									</NavLink>
+								</li>
 							</button>
 						</NavMenu>
 					</div>
@@ -71,7 +71,6 @@ const Navbar = () => {
 				<Route exact path='/recipes' element={<Recipes />} />
 				<Route exact path='/kids' element={<Kids />} />
 				<Route exact path='/contact' element={<Contact />} />
-
 			</Routes >
 
 		</>

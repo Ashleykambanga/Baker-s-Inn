@@ -8,15 +8,15 @@ import Footer from "../componets/Footer";
 const About = () => {
 	return (
 		<div className="About">
-			<div className="about"> 
-				<img src={require('../img/Rectangle 347.png')} alt="Rectangle 347.png" className="img-fluid"/>
+			<div className="about">
+				<img src={require('../img/Rectangle 347.png')} alt="Rectangle 347.png" className="img-fluid" />
 				<h1>
-				About Us
+					About Us
 				</h1>
 			</div>
-			<OurMission/>
-			<Footer/>
-		   </div>
+			<OurMission />
+			<Footer />
+		</div>
 	);
 };
 

@@ -91,7 +91,7 @@ const Footer = () => {
                         <p>Subsidiary of   <img src={require('../img/inscor_logo@2x 1.png')} alt="inscor_logo@2x 1.png" className="img-fluid"  /></p>
                     </div>
                     <div className="col-md-6 ">
-                        <p>Copyright © 2022 Bakers Inn. All rights reserved. Site by<span> NoWalls Pan Africa</span></p>
+                        <p>Copyright © 2022 Bakers Inn. All rights reserved. Site by<span> Ashleykam2k</span></p>
                     </div>
                 </div>
             </div>
